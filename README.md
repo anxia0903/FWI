@@ -1,5 +1,10 @@
 # FWI
-This project is time domain full waveform inversion of elastic wave equation by using CUDA.
+This project is time domain full waveform inversion of elastic wave equation by using CUDA which is completed in 2013/4.
+
+![acc_model](FWI_CPML_2D_GPU_Borders_Multiscale_OVERSTRUCT/shell/acc_lambda.jpeg)
+![fwi_model](FWI_CPML_2D_GPU_Borders_Multiscale_OVERSTRUCT/shell/6freq_lambda.jpeg)
+
+
 
 ## Introduction
 
@@ -16,6 +21,15 @@ This project adopts GPU parallel computing technology and efficient boundaries s
 ## What's new
 
 ## User Guides
+Below are quick steps for use:
+```
+cd FWI_CPML_2D_GPU_Borders_Multiscale_OVERSTRUCT
+nvcc -o elastic_fdtd_2d_cpml_GPU_border_4rd_multiscale elastic_fdtd_2d_cpml_GPU_border_4rd_multiscale.cu
+./elastic_fdtd_2d_cpml_GPU_border_4rd_multiscale
+cd shell/seismic_unix
+./plot_model_su.sh
+
+```
 
 
 ## TODO
