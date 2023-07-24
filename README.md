@@ -2,7 +2,7 @@
 This project is time domain full waveform inversion of elastic wave equation by using CUDA which is completed in 2013/4.
 
 <img src="FWI_CPML_2D_GPU_Borders_Multiscale_OVERSTRUCT/shell/acc_lambda.jpeg">
-<img src="FWI_CPML_2D_GPU_Borders_Multiscale_OVERSTRUCT/shell/6freq_lambda.jpeg">
+<img src="FWI_CPML_2D_GPU_Borders_Multiscale_OVERSTRUCT/shell/6freq_lambda_Encoding.jpeg">
 
 
 
